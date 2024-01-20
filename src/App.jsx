@@ -13,10 +13,8 @@ import PlacePage from './pages/PlacePage'
 import SingleBookingPage from './pages/SingleBookingPage'
 import BookingsPage from './pages/BookingsPage'
 
-axios.defaults.baseURL = 'http://localhost:4000'
+axios.defaults.baseURL = 'https://booking-app-api-mx4s.onrender.com'
 axios.defaults.withCredentials = true
-
-// TODO: change links -> App, BASE_URL, server
 
 function App() {
   return (
