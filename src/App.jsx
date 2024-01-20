@@ -14,6 +14,7 @@ import SingleBookingPage from './pages/SingleBookingPage'
 import BookingsPage from './pages/BookingsPage'
 
 axios.defaults.baseURL = 'https://booking-app-api-mx4s.onrender.com'
+// axios.defaults.baseURL = 'http://localhost:4000'
 axios.defaults.withCredentials = true
 
 function App() {
